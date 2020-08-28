@@ -37,7 +37,7 @@ executors:
             yarn coverage
         - store_artifacts:
           path: ̃/repo/coverage
- workflows:
+  workflows:
     version: 2
     test:
       jobs:
