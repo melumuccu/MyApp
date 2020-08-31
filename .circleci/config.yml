@@ -35,7 +35,7 @@ jobs:
             yarn lint
             yarn coverage
       - store_artifacts:
-          path: ̃/repo/coverage
+          path: ~/repo/coverage
 workflows:
   version: 2
   test:
