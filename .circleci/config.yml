@@ -6,7 +6,7 @@ executors:
   node-lts:
     docker:
       - image: circleci/node:12.13
-    working_directory: ̃/repo
+    working_directory: ~/repo
 commands:
   setup:
     steps:
