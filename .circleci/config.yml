@@ -30,7 +30,7 @@ jobs:
     steps:
       - setup
       - run:
-          command: ¦
+          command: |
             yarn type-check
             yarn lint
             yarn coverage
